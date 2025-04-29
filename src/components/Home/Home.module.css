@@ -1,3 +1,29 @@
 .homeContainer{
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90vh;
+}
+
+.img img{
+    border-radius: 50%;
+    width: 550px;
+}
+.description{
+    text-align: end;
+}
+
+.description h1{
+    font-size: 120px;
+    font-weight: 600;
+}
+
+.description h2{
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.description h1, h2{
+    margin: 30px 0;
 }

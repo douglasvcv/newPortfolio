@@ -5,12 +5,13 @@ const Home = ()=>{
     return(
         <>
         <div className={styles.homeContainer}>
-            <div id="img">
+            <div className={styles.img}>
                 <img src={Img} alt="" />
             </div>
-            <div id="description">
+            <div className={styles.description}>
                 <h1>Douglas Vitor</h1>
                 <h2>Full Stack Developer</h2>
+                <a href="./">Cv</a>
             </div>
         </div>
         </>
