@@ -1,0 +1,32 @@
+
+.navContainer{
+    width: 100vw;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 550;
+    font-size: 18px;
+    background-color:#F1EFEC;
+    padding: 35px 0px;
+    box-shadow:10px 0px 7px black ;
+}
+
+.navContainer ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navContainer ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: #123458;
+    border: 1px solid #123458;
+    padding: 15px 25px;
+    border-radius: 99999999px;
+}
+
+.navContainer ul li a:hover{
+    transition: 0.5s ease-in-out;
+    background-color: #123458;
+    color: #F1EFEC;
+    
+}
