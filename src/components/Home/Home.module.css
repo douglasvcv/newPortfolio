@@ -17,6 +17,7 @@
 .description h1{
     font-size: 120px;
     font-weight: 600;
+    color: var(--text);
 }
 
 .description h2{
@@ -26,4 +27,21 @@
 
 .description h1, h2{
     margin: 30px 0;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.links a{
+    border: 2px solid var(--primary);
+    color: var(--text);
+    width:190px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 99999px;
 }
