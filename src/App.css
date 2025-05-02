@@ -43,10 +43,10 @@ table {
 }
 
 :root{
-    --background: #F1EFEC;
-    --surface:#D4C9BE;
-	--primary:#123458; 
-    --text: #030303;
+    --background: #1E1E1E;
+    --surface:#2E2E2E;
+	--primary:	#A6A0A0; 
+    --text: 	#F1EFEC;
 }
 body{
 	background-color: var(--background);
