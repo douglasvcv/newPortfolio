@@ -1,61 +1,81 @@
-.navContainer {
-   
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    font-weight: 550;
-    font-size: 18px;
-    background-color: var(--surface);
-    height: 10vh;
-    min-width: 100vw;
-    box-shadow: 10px 0px 7px black;
-}
 
-.navContainer ul {
+.nav_bar{
     display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 2% 0 3%;
+    max-width: none;
+    width: auto;
     align-items: center;
-    justify-content: space-around;
- 
+    justify-content: space-between;
+    background-color: #fff7f3;
+}
+.nav_left img{
+    width: 100px;
+}
+.nav_right{
+    display: flex;
+    width: 200px;
+    align-items: baseline;
+    justify-content: flex-end;
+    flex: 0 auto;
+    flex-flow: row;
 }
 
-.navContainer ul li a {
-    list-style: none;
+.nav_right ul{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    padding-left: 0%;
+    list-style-type: none;
+    display: flex;
+    height: auto;
+    width: auto;
+    align-items: baseline;
+    align-self: baseline;
+    justify-content: space-between;
+    flex: 0 auto;
+}
+.nav_right ul li{
+    list-style-type:none;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family:  "Roboto", sans-serif;
+    color: #332e2e;
+    font-size: 1rem;
+    line-height: 150%;
+    font-weight: 300;
+    text-align: left;
+    letter-spacing: normal;
+    margin-top: 0;
+    margin-bottom: 2px;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.nav_right ul li a{
+    display: block;
     text-decoration: none;
-    background-color: #123458;
-    color: #F1EFEC;
-    border: 2px solid #123458;
-    padding: 15px 25px;
-    border-radius: 99999999px;
+    line-height: 100%;
+    font-size: 1.2rem;
+    font-family:  "Roboto", sans-serif;
+    padding: 1rem 1rem;
+    margin-left: 0;
+    margin-right: 0;
+    border: 1px #000;
+    white-space: nowrap;
+    max-width: 100%;
 }
 
-.navContainer ul li a:hover {
-    transition: 0.5s ease-in-out;
-    background-color: var(--surface);
-
-}
-
-
-
-@media (max-width: 600px) {
-    .navContainer{
-       width: 100vw;
-       justify-content: right;
-       align-items: center;
-    }
-    .navContainer ul {
-        display: none;
-        
-    }
-
-    .menuWrapper{
-        cursor: pointer;
-
-    }
-    .menu {
-        width: 35px;
-        height: 5px;
-        background-color: black;
-        margin: 6px 30px;
-        padding: 1px;
-    }
+.nav_right ul li a div{
+    text-transform: none;
+    margin-top: 4%;
+    padding: .5rem 0;
+    text-decoration: none;
+    color: #332e2e;
+    font-weight: 500;
+    line-height: 150%;
+    border-bottom: 1.5px solid #fff7f3;
+    display: block;
+    unicode-bidi: isolate;
 }
