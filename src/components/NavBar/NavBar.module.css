@@ -98,6 +98,12 @@
     display: block;
     unicode-bidi: isolate;
 }
+
+.nav_right ul li a div:hover{
+    border-bottom: 1.5px solid #332e2e;
+    transition: 0.7s ease;
+}
+
 @media  (max-width: 991px) {
     .nav_bar{
         padding-left: 0;
@@ -123,9 +129,7 @@
         justify-content: center;
         align-items: center;
     }
-    .nav_left{
-        
-    }
+   
 
     .nav_right{
         align-items: center;
