@@ -8,6 +8,7 @@ const NavBar = ()=>{
             <div className={styles.nav_left}>
                 <a href="#" target="blank">
                     <img src={img} alt="" />
+                    <p><span>Dev</span>Douglas</p>
                 </a>
             </div>
             <nav className={styles.nav_right}>
