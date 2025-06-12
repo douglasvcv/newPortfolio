@@ -67,3 +67,18 @@
     background-color: #0000002c;
     transition: 0.5s ease;
 }
+
+
+@media (max-width:900px){
+    .apres_container{
+        padding: 0 20px 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .apres_interno h1{
+        font-size: 300%;
+    }
+    .button_container{
+        justify-content: center;
+    }
+}

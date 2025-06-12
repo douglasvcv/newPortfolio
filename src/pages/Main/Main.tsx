@@ -1,11 +1,13 @@
-import Img from "../../assets/images/imagem aleatoria para portfolio.avif"
+
 import Apresentacao from "../../components/Apresentacao/Apresentacao"
+import NavBar from "../../components/NavBar/NavBar"
 import styles from "./Main.module.css"
 
 
-const Home = ()=>{
+const Main = ()=>{
     return(
         <>
+        <NavBar/>
         <main>
           <Apresentacao/>  
         </main>
@@ -13,4 +15,4 @@ const Home = ()=>{
     )
 }
 
-export default Home
+export default Main
