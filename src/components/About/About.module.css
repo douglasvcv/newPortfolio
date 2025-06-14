@@ -32,3 +32,30 @@
     text-align: justify;
     letter-spacing: normal;
 }
+
+@media (max-width:900px){
+    .about_container{
+        padding: 0;
+        padding-bottom: 2rem;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+    }
+    .about_picture{
+        display: none;
+    }
+    .title_about{
+        margin-top: 0;
+    }
+    .title_about h2{
+        margin-top: 30px;
+        font-size: 50px;
+        width: 80vw;
+        margin-bottom: 20px;
+    }
+    .about_container p{
+        width: 80vw;
+        text-align: initial;
+    }
+}
